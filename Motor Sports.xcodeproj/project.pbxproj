@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E839A079216CFD7E00455E55 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = E839A077216CFD7E00455E55 /* iCarousel.m */; };
+		E8CA20852164D1EE00E163C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CA20842164D1EE00E163C1 /* AppDelegate.swift */; };
+		E8CA20872164D1EE00E163C1 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CA20862164D1EE00E163C1 /* MainVC.swift */; };
+		E8CA208A2164D1EE00E163C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8CA20882164D1EE00E163C1 /* Main.storyboard */; };
+		E8CA208C2164D1F000E163C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8CA208B2164D1F000E163C1 /* Assets.xcassets */; };
+		E8CA208F2164D1F000E163C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8CA208D2164D1F000E163C1 /* LaunchScreen.storyboard */; };
+		E8CA209D2164E4F600E163C1 /* PicinTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CA209A2164E4F500E163C1 /* PicinTitle.swift */; };
+		E8CA209E2164E4F600E163C1 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CA209B2164E4F600E163C1 /* Helper.swift */; };
+		E8CA209F2164E4F600E163C1 /* My Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CA209C2164E4F600E163C1 /* My Alerts.swift */; };
+		E8CA20A12164E58600E163C1 /* SwiftNotice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CA20A02164E57500E163C1 /* SwiftNotice.swift */; };
+		E8CA20A32164ED4000E163C1 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CA20A22164ED4000E163C1 /* StringExtension.swift */; };
+		E8CA20A52164EFE400E163C1 /* CellForNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CA20A42164EFE400E163C1 /* CellForNews.swift */; };
+		E8CA20A82164FD6100E163C1 /* RacerDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CA20A72164FD6100E163C1 /* RacerDetailsVC.swift */; };
+		E8CA20AB2165224800E163C1 /* TeamVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CA20AA2165224800E163C1 /* TeamVC.swift */; };
+		E8CA20AD216540F300E163C1 /* EventsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CA20AC216540F300E163C1 /* EventsVC.swift */; };
+		E8CA20AF2165446100E163C1 /* EventsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CA20AE2165446100E163C1 /* EventsCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E839A076216CFD7B00455E55 /* Motor Sports-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Motor Sports-Bridging-Header.h"; sourceTree = "<group>"; };
+		E839A077216CFD7E00455E55 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		E839A078216CFD7E00455E55 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		E8CA20812164D1EE00E163C1 /* Motor Sports.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Motor Sports.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8CA20842164D1EE00E163C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E8CA20862164D1EE00E163C1 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		E8CA20892164D1EE00E163C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E8CA208B2164D1F000E163C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8CA208E2164D1F000E163C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E8CA20902164D1F000E163C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8CA209A2164E4F500E163C1 /* PicinTitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicinTitle.swift; sourceTree = "<group>"; };
+		E8CA209B2164E4F600E163C1 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		E8CA209C2164E4F600E163C1 /* My Alerts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "My Alerts.swift"; sourceTree = "<group>"; };
+		E8CA20A02164E57500E163C1 /* SwiftNotice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNotice.swift; sourceTree = "<group>"; };
+		E8CA20A22164ED4000E163C1 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		E8CA20A42164EFE400E163C1 /* CellForNews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellForNews.swift; sourceTree = "<group>"; };
+		E8CA20A72164FD6100E163C1 /* RacerDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacerDetailsVC.swift; sourceTree = "<group>"; };
+		E8CA20AA2165224800E163C1 /* TeamVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamVC.swift; sourceTree = "<group>"; };
+		E8CA20AC216540F300E163C1 /* EventsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsVC.swift; sourceTree = "<group>"; };
+		E8CA20AE2165446100E163C1 /* EventsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8CA207E2164D1EE00E163C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E839A075216CFD6800455E55 /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				E839A078216CFD7E00455E55 /* iCarousel.h */,
+				E839A077216CFD7E00455E55 /* iCarousel.m */,
+				E839A076216CFD7B00455E55 /* Motor Sports-Bridging-Header.h */,
+			);
+			path = iCarousel;
+			sourceTree = "<group>";
+		};
+		E8CA20782164D1EE00E163C1 = {
+			isa = PBXGroup;
+			children = (
+				E8CA20832164D1EE00E163C1 /* Motor Sports */,
+				E8CA20822164D1EE00E163C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8CA20822164D1EE00E163C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8CA20812164D1EE00E163C1 /* Motor Sports.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8CA20832164D1EE00E163C1 /* Motor Sports */ = {
+			isa = PBXGroup;
+			children = (
+				E8CA20992164E47A00E163C1 /* Support */,
+				E8CA20982164E2BF00E163C1 /* View */,
+				E8CA20972164E2AC00E163C1 /* View Contrroller */,
+				E8CA20962164E2A500E163C1 /* Model */,
+				E8CA20842164D1EE00E163C1 /* AppDelegate.swift */,
+				E8CA20882164D1EE00E163C1 /* Main.storyboard */,
+				E8CA208B2164D1F000E163C1 /* Assets.xcassets */,
+				E8CA208D2164D1F000E163C1 /* LaunchScreen.storyboard */,
+				E8CA20902164D1F000E163C1 /* Info.plist */,
+			);
+			path = "Motor Sports";
+			sourceTree = "<group>";
+		};
+		E8CA20962164E2A500E163C1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E8CA20972164E2AC00E163C1 /* View Contrroller */ = {
+			isa = PBXGroup;
+			children = (
+				E8CA20A92165223900E163C1 /* New Group */,
+				E8CA20862164D1EE00E163C1 /* MainVC.swift */,
+				E8CA20A72164FD6100E163C1 /* RacerDetailsVC.swift */,
+				E8CA20AA2165224800E163C1 /* TeamVC.swift */,
+				E8CA20A42164EFE400E163C1 /* CellForNews.swift */,
+				E8CA20AC216540F300E163C1 /* EventsVC.swift */,
+				E8CA20AE2165446100E163C1 /* EventsCell.swift */,
+			);
+			path = "View Contrroller";
+			sourceTree = "<group>";
+		};
+		E8CA20982164E2BF00E163C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E8CA20A62164F0FF00E163C1 /* OutScource */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E8CA20992164E47A00E163C1 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				E8CA209C2164E4F600E163C1 /* My Alerts.swift */,
+				E8CA209B2164E4F600E163C1 /* Helper.swift */,
+				E8CA209A2164E4F500E163C1 /* PicinTitle.swift */,
+				E8CA20A22164ED4000E163C1 /* StringExtension.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		E8CA20A62164F0FF00E163C1 /* OutScource */ = {
+			isa = PBXGroup;
+			children = (
+				E839A075216CFD6800455E55 /* iCarousel */,
+				E8CA20A02164E57500E163C1 /* SwiftNotice.swift */,
+			);
+			path = OutScource;
+			sourceTree = "<group>";
+		};
+		E8CA20A92165223900E163C1 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8CA20802164D1EE00E163C1 /* Motor Sports */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8CA20932164D1F000E163C1 /* Build configuration list for PBXNativeTarget "Motor Sports" */;
+			buildPhases = (
+				E8CA207D2164D1EE00E163C1 /* Sources */,
+				E8CA207E2164D1EE00E163C1 /* Frameworks */,
+				E8CA207F2164D1EE00E163C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Motor Sports";
+			productName = "Motor Sports";
+			productReference = E8CA20812164D1EE00E163C1 /* Motor Sports.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8CA20792164D1EE00E163C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Youssef;
+				TargetAttributes = {
+					E8CA20802164D1EE00E163C1 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+				};
+			};
+			buildConfigurationList = E8CA207C2164D1EE00E163C1 /* Build configuration list for PBXProject "Motor Sports" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8CA20782164D1EE00E163C1;
+			productRefGroup = E8CA20822164D1EE00E163C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8CA20802164D1EE00E163C1 /* Motor Sports */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8CA207F2164D1EE00E163C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8CA208F2164D1F000E163C1 /* LaunchScreen.storyboard in Resources */,
+				E8CA208C2164D1F000E163C1 /* Assets.xcassets in Resources */,
+				E8CA208A2164D1EE00E163C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8CA207D2164D1EE00E163C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8CA20AF2165446100E163C1 /* EventsCell.swift in Sources */,
+				E8CA20A52164EFE400E163C1 /* CellForNews.swift in Sources */,
+				E8CA20A82164FD6100E163C1 /* RacerDetailsVC.swift in Sources */,
+				E8CA20872164D1EE00E163C1 /* MainVC.swift in Sources */,
+				E8CA20A32164ED4000E163C1 /* StringExtension.swift in Sources */,
+				E839A079216CFD7E00455E55 /* iCarousel.m in Sources */,
+				E8CA209D2164E4F600E163C1 /* PicinTitle.swift in Sources */,
+				E8CA20852164D1EE00E163C1 /* AppDelegate.swift in Sources */,
+				E8CA20A12164E58600E163C1 /* SwiftNotice.swift in Sources */,
+				E8CA209F2164E4F600E163C1 /* My Alerts.swift in Sources */,
+				E8CA209E2164E4F600E163C1 /* Helper.swift in Sources */,
+				E8CA20AD216540F300E163C1 /* EventsVC.swift in Sources */,
+				E8CA20AB2165224800E163C1 /* TeamVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E8CA20882164D1EE00E163C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8CA20892164D1EE00E163C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E8CA208D2164D1F000E163C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8CA208E2164D1F000E163C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8CA20912164D1F000E163C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E8CA20922164D1F000E163C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8CA20942164D1F000E163C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5R27SH76MM;
+				INFOPLIST_FILE = "Motor Sports/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Youssef.Motor-Sports";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Motor Sports/View/OutScource/iCarousel/Motor Sports-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8CA20952164D1F000E163C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5R27SH76MM;
+				INFOPLIST_FILE = "Motor Sports/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Youssef.Motor-Sports";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Motor Sports/View/OutScource/iCarousel/Motor Sports-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8CA207C2164D1EE00E163C1 /* Build configuration list for PBXProject "Motor Sports" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8CA20912164D1F000E163C1 /* Debug */,
+				E8CA20922164D1F000E163C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8CA20932164D1F000E163C1 /* Build configuration list for PBXNativeTarget "Motor Sports" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8CA20942164D1F000E163C1 /* Debug */,
+				E8CA20952164D1F000E163C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8CA20792164D1EE00E163C1 /* Project object */;
+}
